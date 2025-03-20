@@ -10,12 +10,10 @@
   --shadow-color: #fff;
   --background-color: #fff;
   --button-text-color: #fff;
-  --main-border: 1px solid #000;
+  --main-border: 2px solid #000;
   --heart-contour-color: #000;
   --heart-color: red;
 
-  --padding-top: clamp(80px, 128px, 20vw);
-  --padding-side: clamp(60px, 120px, 15vw);
   --time_step: 0.3s;
   --page-width: clamp(18.75rem, 100%, 43.5rem);
   --header-title-font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);

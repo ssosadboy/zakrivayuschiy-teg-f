@@ -186,6 +186,7 @@
   background-color: transparent;
   border: none;
   outline: 2px solid transparent;
+  align-items: center;
   transition: outline 0.3s ease;
   align-self: center;
   padding-inline: 0;
@@ -290,7 +291,6 @@ body:has(.floppy_dialog[open]) {
 
 .article_image {
   display: block;
-
   object-fit: cover;
   object-position: center;
   inline-size: 100%;

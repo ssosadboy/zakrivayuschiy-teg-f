@@ -5,20 +5,15 @@
   --text-weight: 400;
   --title-weight: 700;
   --font-size: 18px;
-  --font-small: 14px;
+  --font-size-card-label: 14px;
   --color: #000;
   --shadow-color: #fff;
   --background-color: #fff;
+  --button-font-size: 14px;
   --button-text-color: #fff;
-  --main-border: 2px solid #000;
-  --heart-contour-color: #000;
-  --heart-color: red;
-
-  --time_step: 0.3s;
-  --page-width: clamp(18.75rem, 100%, 43.5rem);
-  --header-title-font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
-  --header-subtitle-font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
-
+  --main-border: 2px solid black;
+  --heart-contour-color: black;
+  --heart-sparks-color: red;
   --background-image: repeating-linear-gradient(
       180deg,
       #d3d3d3 0 2px,
@@ -26,4 +21,9 @@
     ),
     repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+
+  --time_step: 0.3s;
+  --page-width: clamp(18.75rem, 100%, 43.5rem);
+  --header-title-font-size: clamp(3.063rem, 1.909rem + 4.92vw, 4.063rem);
+  --header-subtitle-font-size: clamp(0.875rem, 0.226rem + 2.77vw, 1.438rem);
 }

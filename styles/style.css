@@ -347,7 +347,7 @@ body:has(.floppy_dialog[open]) {
     flex-direction: column;
     width: 312px;
     height: 84px;
-    margin: 0; 
+    margin: 0;
   }
 
   .floppy_svg {

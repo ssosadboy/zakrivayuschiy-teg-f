@@ -120,6 +120,7 @@
 
 .article_text:last-of-type {
   margin-block-end: 25px;
+  line-height: 21px;
 }
 
 .filter_brightness {
@@ -170,8 +171,8 @@
 }
 
 .dialog_floppy_svg {
-  width: 50px;
-  height: 50px;
+  width: 39px;
+  height: 39px;
 }
 
 .card__like-button {
@@ -241,7 +242,7 @@
 
 .decorated_button:focus {
   outline: none;
-  box-shadow: 2px 2px 0 1px var(--color);
+  box-shadow: 2px 2px 0 var(--color);
 }
 
 .decorated_button:hover::before {
@@ -251,8 +252,8 @@
 .floppy_dialog[open] {
   flex-shrink: 0;
   border: var(--main-border);
-  padding: 30px;
-  inline-size: 354px;
+  padding: 32px;
+  inline-size: 353px;
 }
 
 .floppy_dialog[open]::backdrop {
@@ -266,9 +267,9 @@ body:has(.floppy_dialog[open]) {
 .dialog_description {
   display: flex;
   align-items: center;
-  gap: 18px;
-  padding-bottom: 27px;
-  padding-top: 5px;
+  gap: 20px;
+  padding-bottom: 30px;
+  padding-top: 6px;
 }
 
 .dialog_button {
@@ -318,7 +319,9 @@ body:has(.floppy_dialog[open]) {
   .header {
     margin-top: 27vw;
     margin-bottom: 28vw;
-    min-height: 325px;
+    width: 375px;
+    height: 667px;
+    padding: 120px 14px;
   }
 
   .header_title {
@@ -340,17 +343,21 @@ body:has(.floppy_dialog[open]) {
     width: 312px;
     height: 84px;
     margin: 0;
-    gap: 4px;
+    gap: 8px;
   }
 
   .floppy_svg {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     aspect-ratio: 1/1;
   }
 
   .decorated_button_text {
     margin-right: 2px;
     margin-bottom: 4px;
+  }
+  .floppy_dialog[open] {
+    width: 341px;
+    height: 195px;
   }
 }

@@ -77,9 +77,6 @@
   background-color: white;
 }
 
-.article:last-of-type {
-}
-
 .article_title {
   padding: 5px 10px;
   font-variation-settings: "wght" var(--title-weight);
@@ -220,7 +217,7 @@
   min-height: 55px;
   /*line-height: 90%;*/
   /*text-align: center;*/
-  gap: 4px;
+  gap: 8px;
   display: flex;
   /*border: var(--main-border);*/
 }
@@ -350,17 +347,16 @@ body:has(.floppy_dialog[open]) {
     flex-direction: column;
     width: 312px;
     height: 84px;
-    margin: 0;
-    gap: 4px;
+    margin: 0; 
   }
 
   .floppy_svg {
-    width: 32px;
-    height: 32px;
+    width: 29px;
+    height: 29px;
   }
 
   .decorated_button_text {
-    margin-right: 2px;
-    margin-bottom: 4px;
+    margin-right: 3px;
+    margin-bottom: 10px;
   }
 }

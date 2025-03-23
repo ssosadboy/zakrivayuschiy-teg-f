@@ -15,7 +15,6 @@
   font-family: var(--main-font);
   font-variation-settings: "wght" var(--text-weight);
   font-size: var(--font-size);
-  width: var(--page-width);
   background-image: var(--background-image);
   background-size: cover;
   background-position: center;
@@ -33,6 +32,7 @@
   text-transform: uppercase;
   display: flex;
   justify-content: center;
+  width: var(--page-width);
   align-items: center;
   flex-direction: column;
   border: 2px solid var(--color);
@@ -56,6 +56,7 @@
   display: grid;
   row-gap: 54px;
   margin-block-end: 100px;
+  width: var(--page-width);
   justify-items: center;
 }
 
@@ -349,7 +350,10 @@ body:has(.floppy_dialog[open]) {
     height: 84px;
     margin: 0;
   }
-
+  .floppy_dialog[open] {
+    display: grid;
+    max-inline-size: 357px;
+  }
   .floppy_svg {
     width: 29px;
     height: 29px;

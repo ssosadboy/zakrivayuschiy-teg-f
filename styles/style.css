@@ -350,9 +350,19 @@ body:has(.floppy_dialog[open]) {
     height: 84px;
     margin: 0;
   }
-  .floppy_dialog[open] {
+  .floppy_dialog {
     display: grid;
+    grid-template-rows: 1fr min-content;
     max-inline-size: 357px;
+    row-gap: 11px;
+    padding: 25px 32px;
+  }
+  .dialog_description {
+    padding-bottom: 22px;
+    gap: 15px;
+  }
+  .dialog_button {
+    max-inline-size: 300px;
   }
   .floppy_svg {
     width: 29px;

@@ -254,8 +254,10 @@
 .floppy_dialog[open] {
   flex-shrink: 0;
   border: var(--main-border);
+  max-inline-size: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+  display: grid;
+  gap: 30px;
   padding: 30px;
-  inline-size: 354px;
 }
 
 .floppy_dialog[open]::backdrop {
@@ -350,16 +352,17 @@ body:has(.floppy_dialog[open]) {
     height: 84px;
     margin: 0;
   }
-  .floppy_dialog {
+  .floppy_dialog[open] {
     display: grid;
     grid-template-rows: 1fr min-content;
-    max-inline-size: 357px;
-    row-gap: 11px;
-    padding: 25px 32px;
+    max-inline-size: 341px;
+    row-gap: 30px;
+    padding: 30px 40px;
   }
   .dialog_description {
-    padding-bottom: 22px;
-    gap: 15px;
+    padding-bottom: 1px;
+    gap: 20px;
+    padding-top: 1px;
   }
   .dialog_button {
     max-inline-size: 300px;

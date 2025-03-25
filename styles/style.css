@@ -254,9 +254,8 @@
 .floppy_dialog[open] {
   flex-shrink: 0;
   border: var(--main-border);
-  max-inline-size: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+  inline-size: 357px;
   display: grid;
-  gap: 30px;
   padding: 30px;
 }
 
